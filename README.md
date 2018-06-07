@@ -18,13 +18,21 @@ The ENV variables for the doker images are: RANDOMIZER_LOWER_VALUE; RANDOMIZER_L
 ## To test the API
 A service is deployed on GCP at IP/PORT 104.198.205.151/80
 
-curl -X GET http://104.198.205.151/start?duration=xx
+Don't forget to replace xx,yy & zz by thier corresponding values.
+|      | Description |
+| ---      | ---       |
+| XX |  duration in seconds   |
+| ZZ     | price in euros       |
+| YY     | bid id       |
+
+
+curl -X GET http://104.198.205.151/start?duration=XX
  
-curl -X GET http://104.198.205.151/bid/<id>?amount=xx&name=yy
+curl -X GET http://104.198.205.151/bid/YY?amount=ZZ&name=name
  
-curl -X GET http://104.198.205.151/getactualprice/<id>
+curl -X GET http://104.198.205.151/getactualprice/YY
  
-curl -X GET http://104.198.205.151/getwinner/<id>
+curl -X GET http://104.198.205.151/getwinner/YY
  
 
 
