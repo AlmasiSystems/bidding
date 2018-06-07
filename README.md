@@ -20,7 +20,6 @@ A service is deployed on GCP at IP/PORT 104.198.205.151/80
 
 Don't forget to replace xx,yy & zz by thier corresponding values.
 |      | Description |
-| ---      | ---       |
 | XX |  duration in seconds   |
 | ZZ     | price in euros       |
 | YY     | bid id       |
