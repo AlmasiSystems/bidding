@@ -23,7 +23,7 @@ Don't forget to replace xx,yy,zz & name by thier corresponding values.
 |      | Description |
 | ---      | ---       |
 | XX |  duration in seconds ( integer expected)   |
-| ZZ     | price in euros       |
+| ZZ     | price in euros  ( integer expected)     |
 | YY     | bid id ( integer expected as returns through /start)      |
 | name     | name (string expected)      |
 
